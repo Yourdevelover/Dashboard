@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive ui Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+<header class="header">
+    <div class="header-content responsive-wrapper">
+        <div class="header-logo">
+            <a href="#">
+                <div>
+                    <img src="https://img.icons8.com/ios/50/r.png" />
+                </div>
+                <img src="https://assets.codepen.io/285131/untitled-ui.svg" />
+            </a>
+        </div>
+        <div class="header-navigation">
+            <nav class="header-navigation-links">
+                <a href="../index.php"> Home </a>
+                <a href="../koneksi/Dashboard.php"> Dashboard </a>
+                	<a href="project.html"> Projects </a>
+                <a href="../koneksi/users.php"> Users </a>
+            </nav>
+            <div class="header-navigation-actions">
+				<a href="../logout.php" class="button">
+					<span>login now</span>
+				</a>
+				<a href="#" class="avatar">
+					<img src="../images/favicon.gif" alt="icon" />
+				</a>
+			</div>
+		</div>
+	</div>
+</header>
+<main class="main">
+    <div class="responsive-wrapper">
+        <div class="main-header">
+            <h1>Home</h1>
+            <div class="search">
+                <input type="text" placeholder="Search" />
+                <button type="submit">
+                    <i class="ph-magnifying-glass-bold"></i>
+                </button>
+            </div>
+        </div>
+        <div class="horizontal-tabs">
+            <a href="mydetails.html" class="active">My details</a>
+            <a href="#">Profile</a>
+            <a href="../index.php">Connected</a>
+            <a href="contact.html">Email</a>
+        </div>
+        <div class="content-header">
+            <div class="content-header-intro">
+                <h2>about me</h2>
+                <p>I am a web developer and a creator of responsive website.</p>
+            </div>
+</main>
+
+<div class="content">
+    <article class="about active" data-page="about" style="width: 1000px;">
+
+        <header>
+            <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+            <p>
+                a fresh graduate in web design and development.
+            </p>
+
+            <p>
+                My job is to build your website so that it is functional and user-friendly but at the same time
+                attractive. Moreover, I add a personal touch to your product and ensure it is eye-catching and easy to use.
+                My aim is to convey your message and identity in the most creative way. I have created web designs for many
+                renowned brand companies.
+            </p>
+        </section>
+
+
+        <!--
+              - service
+            -->
+
+        <section class="service">
+
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+
+                <li class="service-item">
+
+                    <div class="service-icon-box">
+                        <img src="../images/05.gif" alt="design icon" width="40">
+                    </div>
+
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Web design</h4>
+
+                        <p class="service-item-text">
+                            Creating an attractive interface or UI
+                        </p>
+                    </div>
+
+                </li>
+
+                <li class="service-item">
+
+                    <div class="service-icon-box">
+                        <img src="../images/01.gif" alt="Web development icon" width="40">
+                    </div>
+
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Web development</h4>
+
+                        <p class="service-item-text">
+                            Developing a responsive website with a modern and interactive user interface.
+                        </p>
+                    </div>
+
+                </li>
+
+                <li class="service-item">
+
+                    <div class="service-icon-box">
+                        <img src="../images/03.gif" alt="mobile app icon" width="40">
+                    </div>
+
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">JavaScript</h4>
+
+                        <p class="service-item-text">
+                            Able to use JavaScript to give interactive effects on the website.
+                        </p>
+                    </div>
+
+                </li>
+
+                <li class="service-item">
+
+                    <div class="service-icon-box">
+                        <img src="../images/02.gif" alt="camera icon" width="40">
+                    </div>
+
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">php</h4>
+
+                        <p class="service-item-text">
+                            I am able to create the backend and frontend of a website using PHP.
+                        </p>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!--
+        - custom js link
+      -->
+        <script src="./assets/js/script.js"></script>
+
+        <!--
+        - ionicon link
+      -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        </body>
+
+
+        </main>
+        <script src="script.js"></script>
+        </body>
+
+</html>
